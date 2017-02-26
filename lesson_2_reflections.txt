@@ -1,0 +1,20 @@
+1. What happens when you initialize a repository? Why do you need to do it?
+
+When I initialize a repository the current folder starts to be tracked by git
+and receives a special folder .git where metadata about commits are stored.
+If I don't initialize a repository git wont keep track of it and I cannot
+make commits in it.
+
+2. How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
+
+Repository is the area where all of my commits are stored, it only contains
+stuff that I put in there organized in time by order of commits. Working
+directory is the place where I add and edit files while I work on them and
+these are saved in a repository only when I make a commit, otherwise they
+remain unsaved. A staging area is a kind of a cache where I put edited and
+added files before I make a commit so that it can include all of the things
+I worked on not only one. That way I do not need to add one file at a time
+if the change I made was done on multiple files at once.
+
+3. 
